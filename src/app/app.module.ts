@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { HeaderComponent } from './shared/layout/header/header.component';
 import { SharedModule } from './shared/shared.module';
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [

@@ -7,7 +7,7 @@ import Stock from '../../shared/model/stock-model';
   styleUrls: ['./stock-card.component.css']
 })
 export class StockCardComponent implements OnInit {
-
+  
   @Input()
   stock = new Stock();
   constructor() { }

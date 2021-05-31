@@ -1,25 +1,27 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DashboardPageComponent } from './dashboard-page/dashboard-page.component';
-import { StockCardComponent } from './stock-card/stock-card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DashcoardPageComponent } from './dashboard-page/dashboard-page.component';
+import { StockCardComponent } from './stock-card/stock-card.component';
+
+
 
 
 @NgModule({
   declarations: [
-    DashboardPageComponent,
+    DashcoardPageComponent,
     StockCardComponent
   ],
+
   imports: [
     CommonModule,
     HttpClientModule
   ],
   exports: [
-    DashboardPageComponent,
-    StockCardComponent,
-  ],
+    DashcoardPageComponent,
+    StockCardComponent
+  ]
 })
-export class DashboardModule { }
-
-
+  
+export class DashboardModule {}
 
