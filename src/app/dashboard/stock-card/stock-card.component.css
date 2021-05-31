@@ -1,3 +1,4 @@
+/* stock-card-container*/
 .stock-card-container {
     width: 21.375rem;
     height: 13.8125rem;
@@ -22,7 +23,7 @@
   .negative-variation-border {
     border-left-color: var(--negative-variation-color);
   }
-  
+  /*stock-info-container*/
   .stock-info-container {
     width: 100%;
     display: flex;
